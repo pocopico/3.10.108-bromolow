@@ -1,1248 +1,3840 @@
 {
 "modules" : [
 {
-"name" : "3w-9xxx.ko",
-"alias" : "pci:v000013C1d00001005sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000013C1d00001004sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000013C1d00001003sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000013C1d00001002sv*sd*bc*sc*i*" 
-},
-{
-"name" : "3w-sas.ko",
-"alias" : "pci:v000013C1d00001010sv*sd*bc*sc*i*" 
-},
-{
-"name" : "3w-xxxx.ko",
-"alias" : "pci:v000013C1d00001001sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000013C1d00001000sv*sd*bc*sc*i*" 
-},
-{
-"name" : "8021q.ko"
-},
-{
-"name" : "8139cp.ko",
-"alias" : "pci:v00000357d0000000Asv*sd*bc*sc*i*" ,
-"alias" : "pci:v000010ECd00008139sv*sd*bc*sc*i*" 
-},
-{
-"name" : "8139too.ko",
-"alias" : "pci:v*d00008139sv000013D1sd0000AB06bc*sc*i*" ,
-"alias" : "pci:v*d00008139sv00001186sd00001300bc*sc*i*" ,
-"alias" : "pci:v*d00008139sv000010ECsd00008139bc*sc*i*" ,
-"alias" : "pci:v0000021Bd00008139sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001743d00008139sv*sd*bc*sc*i*" ,
-"alias" : "pci:v0000126Cd00001211sv*sd*bc*sc*i*" ,
-"alias" : "pci:v0000018Ad00000106sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000002ACd00001012sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001432d00009130sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011DBd00001234sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014EAd0000AB07sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014EAd0000AB06sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001259d0000A11Esv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001259d0000A117sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000013D1d0000AB06sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001186d00001340sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001186d00001300sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00004033d00001360sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001500d00001360sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001113d00001211sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000010ECd00008138sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000010ECd00008139sv*sd*bc*sc*i*" 
-},
-{
-"name" : "aacraid.ko",
-"alias" : "pci:v00009005d0000028Dsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00009005d0000028Csv*sd*bc*sc*i*" ,
-"alias" : "pci:v00009005d0000028Bsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00009005d00000288sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00009005d00000286sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv000017AAsd*bc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv00001028sd*bc*sc*i*" ,
-"alias" : "pci:v00001011d00000046sv0000103Csd000010C2bc*sc*i*" ,
-"alias" : "pci:v00001011d00000046sv00009005sd00001364bc*sc*i*" ,
-"alias" : "pci:v00001011d00000046sv00009005sd00000364bc*sc*i*" ,
-"alias" : "pci:v00001011d00000046sv00009005sd00000365bc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv00001028sd00000287bc*sc*i*" ,
-"alias" : "pci:v00009005d00000286sv00009005sd000002A2bc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv00009005sd0000029Abc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv00009005sd00000299bc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv00009005sd00000298bc*sc*i*" ,
-"alias" : "pci:v00009005d00000286sv00001014sd00009540bc*sc*i*" ,
-"alias" : "pci:v00009005d00000286sv00001014sd00009580bc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv00001014sd00000312bc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv00001014sd000002F2bc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv00009005sd00000297bc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv00009005sd00000296bc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv0000103Csd00003227bc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv00009005sd00000294bc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv00009005sd00000293bc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv00009005sd00000292bc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv00001028sd00000291bc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv00009005sd00000290bc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv00009005sd0000028Fbc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv00009005sd0000028Ebc*sc*i*" ,
-"alias" : "pci:v00009005d00000286sv00009005sd00000800bc*sc*i*" ,
-"alias" : "pci:v00009005d00000200sv00009005sd00000200bc*sc*i*" ,
-"alias" : "pci:v00009005d00000287sv00009005sd00000800bc*sc*i*" ,
-"alias" : "pci:v00009005d00000286sv00009005sd000002A6bc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv00009005sd000002A5bc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv00009005sd000002A4bc*sc*i*" ,
-"alias" : "pci:v00009005d00000286sv00009005sd000002A3bc*sc*i*" ,
-"alias" : "pci:v00009005d00000286sv00009005sd000002A1bc*sc*i*" ,
-"alias" : "pci:v00009005d00000286sv00009005sd000002A0bc*sc*i*" ,
-"alias" : "pci:v00009005d00000286sv00009005sd0000029Fbc*sc*i*" ,
-"alias" : "pci:v00009005d00000286sv00009005sd0000029Ebc*sc*i*" ,
-"alias" : "pci:v00009005d00000286sv00009005sd0000029Dbc*sc*i*" ,
-"alias" : "pci:v00009005d00000286sv00009005sd0000029Cbc*sc*i*" ,
-"alias" : "pci:v00009005d00000286sv00009005sd0000029Bbc*sc*i*" ,
-"alias" : "pci:v00009005d00000286sv00009005sd0000028Dbc*sc*i*" ,
-"alias" : "pci:v00009005d00000286sv00009005sd0000028Cbc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv00009005sd0000028Bbc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv00009005sd0000028Abc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv00009005sd00000289bc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv00009005sd00000288bc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv000017AAsd00000287bc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv000017AAsd00000286bc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv00009005sd00000287bc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv00009005sd00000285bc*sc*i*" ,
-"alias" : "pci:v00009005d00000285sv00009005sd00000286bc*sc*i*" ,
-"alias" : "pci:v00009005d00000284sv00009005sd00000284bc*sc*i*" ,
-"alias" : "pci:v00009005d00000283sv00009005sd00000283bc*sc*i*" ,
-"alias" : "pci:v00001028d0000000Asv00001028sd00000121bc*sc*i*" ,
-"alias" : "pci:v00001028d0000000Asv00001028sd0000011Bbc*sc*i*" ,
-"alias" : "pci:v00001028d0000000Asv00001028sd00000106bc*sc*i*" ,
-"alias" : "pci:v00001028d00000002sv00001028sd000000D9bc*sc*i*" ,
-"alias" : "pci:v00001028d00000002sv00001028sd000000D1bc*sc*i*" ,
-"alias" : "pci:v00001028d00000004sv00001028sd000000D0bc*sc*i*" ,
-"alias" : "pci:v00001028d00000003sv00001028sd00000003bc*sc*i*" ,
-"alias" : "pci:v00001028d00000002sv00001028sd00000002bc*sc*i*" ,
-"alias" : "pci:v00001028d00000001sv00001028sd00000001bc*sc*i*" 
-},
-{
-"name" : "aic94xx.ko",
-"alias" : "pci:v00009005d0000043Fsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00009005d0000043Esv*sd*bc*sc*i*" ,
-"alias" : "pci:v00009005d00000432sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00009005d00000430sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00009005d0000041Fsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00009005d0000041Esv*sd*bc*sc*i*" ,
-"alias" : "pci:v00009005d00000416sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00009005d00000412sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00009005d00000410sv*sd*bc*sc*i*" 
-},
-{
-"name" : "alx.ko",
-"alias" : "pci:v00001969d000010A0sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001969d000010A1sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001969d00001090sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001969d0000E091sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001969d00001091sv*sd*bc*sc*i*" 
-},
-{
-"name" : "asix.ko",
-"alias" : "usb:v066Bp20F9d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0B95p172Ad*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0B95p7E2Bd*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0DB0pA877d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v14EApAB11d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0B95p772Ad*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v05ACp1402d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v050Dp5055d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v04BBp0930d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v1737p0039d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v2001p1A02d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v2001p3C05d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v07D1p3C05d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v1557p7720d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v13B1p0018d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0789p0160d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0B95p1780d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0B95p7720d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0B95p772Bd*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v17EFp7203d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v04F1p3008d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v1631p6200d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v1189p0893d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v07AAp0017d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0DF6p0056d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v6189p182Dd*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0411p006Ed*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0411p003Dd*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0557p2009d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v08DDp90FFd*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v07B8p420Ad*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0B95p1720d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v2001p1A00d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0846p1040d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v077Bp2226d*dc*dsc*dp*ic*isc*ip*in*" 
-},
-{
-"name" : "atl1c.ko",
-"alias" : "pci:v00001969d00001083sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001969d00001073sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001969d00002062sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001969d00002060sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001969d00001062sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001969d00001063sv*sd*bc*sc*i*" 
-},
-{
-"name" : "atl1e.ko",
-"alias" : "pci:v00001969d00001066sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001969d00001026sv*sd*bc*sc*i*" 
-},
-{
-"name" : "atl1.ko",
-"alias" : "pci:v00001969d00001048sv*sd*bc*sc*i*" 
-},
-{
-"name" : "atl2.ko",
-"alias" : "pci:v00001969d00002048sv*sd*bc*sc*i*" 
-},
-{
-"name" : "atlantic.ko",
-"alias" : "pci:v00001D6Ad000093C0sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001D6Ad000094C0sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001D6Ad000011C0sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001D6Ad000012C0sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001D6Ad000034C0sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001D6Ad000014C0sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001D6Ad000000C0sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001D6Ad000004C0sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001D6Ad000092B1sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001D6Ad000091B1sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001D6Ad000089B1sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001D6Ad000088B1sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001D6Ad000087B1sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001D6Ad000080B1sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001D6Ad000012B1sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001D6Ad000011B1sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001D6Ad000009B1sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001D6Ad000008B1sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001D6Ad000007B1sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001D6Ad000000B1sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001D6Ad0000D109sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001D6Ad0000D108sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001D6Ad0000D107sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001D6Ad0000D100sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001D6Ad00000001sv*sd*bc*sc*i*" 
-},
-{
-"name" : "ax88179_178a.ko",
-"alias" : "usb:v0DF6p0072d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0B95p178Ad*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0B95p1790d*dc*dsc*dp*ic*isc*ip*in*" 
-},
-{
-"name" : "be2net.ko",
-"alias" : "pci:v000010DFd00000728sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000010DFd00000720sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000010DFd0000E228sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000010DFd0000E220sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000019A2d00000710sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000019A2d00000700sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000019A2d00000221sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000019A2d00000211sv*sd*bc*sc*i*" 
-},
-{
-"name" : "bna.ko",
-"alias" : "pci:v00001657d00000022sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00001657d00000014sv*sd*bc02sc00i*" 
-},
-{
-"name" : "bnx2.ko",
-"alias" : "pci:v000014E4d0000163Csv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000163Bsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000163Asv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001639sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016ACsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016AAsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016AAsv0000103Csd00003102bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000164Csv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000164Asv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000164Asv0000103Csd00003106bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000164Asv0000103Csd00003101bc*sc*i*" 
-},
-{
-"name" : "bnx2x.ko",
-"alias" : "pci:v000014E4d0000163Fsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000163Esv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000163Dsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016ADsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016A4sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016ABsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016AFsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016A2sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016A1sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000168Dsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016AEsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000168Esv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016A9sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016A5sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000168Asv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000166Fsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001663sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001662sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001650sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000164Fsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000164Esv*sd*bc*sc*i*" 
-},
-{
-"name" : "BusLogic.ko",
-"alias" : "pci:v0000104Bd00008130sv*sd*bc*sc*i*" ,
-"alias" : "pci:v0000104Bd00000140sv*sd*bc*sc*i*" ,
-"alias" : "pci:v0000104Bd00001040sv*sd*bc*sc*i*" 
-},
-{
-"name" : "button.ko"
-},
-{
-"name" : "cdc_ether.ko",
-"alias" : "usb:v12D1p*d*dc*dsc*dp*ic02isc06ipFFin*" ,
-"alias" : "usb:v*p*d*dc*dsc*dp*ic02isc0Aip00in*" ,
-"alias" : "usb:v*p*d*dc*dsc*dp*ic02isc06ip00in*" ,
-"alias" : "usb:v1BC7p*d*dc*dsc*dp*ic02isc06ip00in*" ,
-"alias" : "usb:v19D2p1181d*dc*dsc*dp*ic02isc06ip00in*" ,
-"alias" : "usb:v19D2p1177d*dc*dsc*dp*ic02isc06ip00in*" ,
-"alias" : "usb:v19D2p1173d*dc*dsc*dp*ic02isc06ip00in*" ,
-"alias" : "usb:v19D2p1015d*dc*dsc*dp*ic02isc06ip00in*" ,
-"alias" : "usb:v19D2p1003d*dc*dsc*dp*ic02isc06ip00in*" ,
-"alias" : "usb:v12D1p14ACd*dc*dsc*dp*ic*isc*ip*in01*" ,
-"alias" : "usb:v16D5p650Ad*dc*dsc*dp*ic02isc06ip00in*" ,
-"alias" : "usb:v413Cp819Bd*dc*dsc*dp*ic02isc06ip00in*" ,
-"alias" : "usb:v413Cp8196d*dc*dsc*dp*ic02isc06ip00in*" ,
-"alias" : "usb:v413Cp8195d*dc*dsc*dp*ic02isc06ip00in*" ,
-"alias" : "usb:v1410p9010d*dc*dsc*dp*ic02isc06ip00in*" ,
-"alias" : "usb:v1410pB001d*dc*dsc*dp*ic02isc06ip00in*" ,
-"alias" : "usb:v046DpC11Fd*dc*dsc*dp*ic02isc0Aip00in*" ,
-"alias" : "usb:v1004p61AAd*dc*dsc*dp*ic02isc06ip00in*" ,
-"alias" : "usb:v07B4p0F02d*dc*dsc*dp*ic02isc06ip00in*" ,
-"alias" : "usb:v04DDp9050d*dc*dsc*dp*ic02isc06ip00in*" ,
-"alias" : "usb:v04DDp9032d*dc*dsc*dp*ic02isc06ip00in*" ,
-"alias" : "usb:v04DDp9031d*dc*dsc*dp*ic02isc06ip00in*" ,
-"alias" : "usb:v04DDp8007d*dc*dsc*dp*ic02isc06ip00in*" ,
-"alias" : "usb:v04DDp8006d*dc*dsc*dp*ic02isc06ip00in*" ,
-"alias" : "usb:v04DDp8005d*dc*dsc*dp*ic02isc06ip00in*" ,
-"alias" : "usb:v04DDp8004d*dc*dsc*dp*ic02isc06ip00in*" 
-},
-{
-"name" : "cdc_ncm.ko",
-"alias" : "usb:v*p*d*dc*dsc*dp*ic02isc0Dip00in*" ,
-"alias" : "usb:v1519p0443d*dc*dsc*dp*ic02isc0Dip00in*" ,
-"alias" : "usb:v12D1p*d*dc*dsc*dp*icFFisc02ip76in*" ,
-"alias" : "usb:v12D1p*d*dc*dsc*dp*icFFisc02ip46in*" ,
-"alias" : "usb:v12D1p*d*dc*dsc*dp*icFFisc02ip16in*" ,
-"alias" : "usb:v12D1p*d*dc*dsc*dp*ic02isc0Dip00in*" ,
-"alias" : "usb:v0930p*d*dc*dsc*dp*ic02isc0Dip00in*" ,
-"alias" : "usb:v413Cp*d*dc*dsc*dp*ic02isc0Dip00in*" ,
-"alias" : "usb:v0BDBp*d*dc*dsc*dp*ic02isc0Dip00in*" 
-},
-{
-"name" : "ch.ko"
-},
-{
-"name" : "crc-ccitt.ko"
-},
-{
-"name" : "crc-itu-t.ko"
-},
-{
-"name" : "dca.ko"
-},
-{
-"name" : "dm9601.ko",
-"alias" : "usb:v0A46p9620d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0A46p9000d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0FE6p9700d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0FE6p8101d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0A47p9601d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0A46p8515d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0A46p0268d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0A46p6688d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0A46p9601d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v07AAp9601d*dc*dsc*dp*ic*isc*ip*in*" 
-},
-{
-"name" : "e1000e.ko",
-"alias" : "pci:v00008086d00001A1Dsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001A1Csv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001A1Fsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001A1Esv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015F5sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015F4sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015FAsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015F9sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015FCsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015FBsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00000D4Dsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00000D4Csv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00000D4Fsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00000D4Esv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015E2sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015E1sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015E0sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015DFsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015BCsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015BBsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015BEsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015BDsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00000D55sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00000D53sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015D6sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015E3sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015D8sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015D7sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015B9sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015B8sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015B7sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001570sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000156Fsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015A3sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015A2sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015A1sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015A0sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001559sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000155Asv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000153Bsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000153Asv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001503sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001502sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010F0sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010EFsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010EBsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010EAsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001525sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010DFsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010DEsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010CEsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010CDsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010CCsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010CBsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010F5sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010BFsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010E5sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000294Csv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010BDsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010C3sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010C2sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010C0sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001501sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001049sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000104Dsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000104Bsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000104Asv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010C4sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010C5sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000104Csv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010BBsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001098sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010BAsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001096sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000150Csv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010F6sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010D3sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000109Asv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000108Csv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000108Bsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000107Fsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000107Esv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000107Dsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010B9sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010D5sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010DAsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010D9sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001060sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010A5sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010BCsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010A4sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000105Fsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000105Esv*sd*bc*sc*i*" 
-},
-{
-"name" : "e1000.ko",
-"alias" : "pci:v00008086d00002E6Esv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010B5sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001099sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000108Asv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000107Csv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000107Bsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000107Asv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001079sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001078sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001077sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001076sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001075sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001028sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001027sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001026sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000101Esv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000101Dsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000101Asv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001019sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001018sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001017sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001016sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001015sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001014sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001013sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001012sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001011sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001010sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000100Fsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000100Esv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000100Dsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000100Csv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001009sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001008sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001004sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001001sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001000sv*sd*bc*sc*i*" 
-},
-{
-"name" : "e100.ko",
-"alias" : "pci:v00008086d000027DCsv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d0000245Dsv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00002459sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00002449sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001229sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001209sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d000010FEsv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001095sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001094sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001093sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001092sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001091sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d0000106Bsv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d0000106Asv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001069sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001068sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001067sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001066sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001065sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001064sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001059sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001057sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001056sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001055sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001054sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001053sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001052sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001051sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001050sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d0000103Esv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d0000103Dsv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d0000103Csv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d0000103Bsv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d0000103Asv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001039sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001038sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001034sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001033sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001032sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001031sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001030sv*sd*bc02sc00i*" ,
-"alias" : "pci:v00008086d00001029sv*sd*bc02sc00i*" 
-},
-{
-"name" : "hpsa.ko",
-"alias" : "pci:v0000103Cd*sv*sd*bc01sc04i*" ,
-"alias" : "pci:v0000103Cd0000323Bsv0000103Csd0000334Dbc*sc*i*" ,
-"alias" : "pci:v0000103Cd0000323Csv0000103Csd00001928bc*sc*i*" ,
-"alias" : "pci:v0000103Cd0000323Csv0000103Csd00001926bc*sc*i*" ,
-"alias" : "pci:v0000103Cd0000323Csv0000103Csd00001925bc*sc*i*" ,
-"alias" : "pci:v0000103Cd0000323Csv0000103Csd00001924bc*sc*i*" ,
-"alias" : "pci:v0000103Cd0000323Csv0000103Csd00001923bc*sc*i*" ,
-"alias" : "pci:v0000103Cd0000323Csv0000103Csd00001922bc*sc*i*" ,
-"alias" : "pci:v0000103Cd0000323Csv0000103Csd00001921bc*sc*i*" ,
-"alias" : "pci:v0000103Cd0000323Csv0000103Csd00001920bc*sc*i*" ,
-"alias" : "pci:v0000103Cd0000323Bsv0000103Csd00003356bc*sc*i*" ,
-"alias" : "pci:v0000103Cd0000323Bsv0000103Csd00003355bc*sc*i*" ,
-"alias" : "pci:v0000103Cd0000323Bsv0000103Csd00003354bc*sc*i*" ,
-"alias" : "pci:v0000103Cd0000323Bsv0000103Csd00003353bc*sc*i*" ,
-"alias" : "pci:v0000103Cd0000323Bsv0000103Csd00003352bc*sc*i*" ,
-"alias" : "pci:v0000103Cd0000323Bsv0000103Csd00003351bc*sc*i*" ,
-"alias" : "pci:v0000103Cd0000323Bsv0000103Csd00003350bc*sc*i*" ,
-"alias" : "pci:v0000103Cd0000323Asv0000103Csd00003233bc*sc*i*" ,
-"alias" : "pci:v0000103Cd0000323Asv0000103Csd0000324Bbc*sc*i*" ,
-"alias" : "pci:v0000103Cd0000323Asv0000103Csd0000324Abc*sc*i*" ,
-"alias" : "pci:v0000103Cd0000323Asv0000103Csd00003249bc*sc*i*" ,
-"alias" : "pci:v0000103Cd0000323Asv0000103Csd00003247bc*sc*i*" ,
-"alias" : "pci:v0000103Cd0000323Asv0000103Csd00003245bc*sc*i*" ,
-"alias" : "pci:v0000103Cd0000323Asv0000103Csd00003243bc*sc*i*" ,
-"alias" : "pci:v0000103Cd0000323Asv0000103Csd00003241bc*sc*i*" 
-},
-{
-"name" : "i40e.ko",
-"alias" : "pci:v00008086d0000158Bsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000158Asv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000037D3sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000037D2sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000037D1sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000037D0sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000037CFsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000037CEsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001588sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001587sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015FFsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001589sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001586sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001585sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001584sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001583sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001581sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001580sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001574sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001572sv*sd*bc*sc*i*" 
-},
-{
-"name" : "igb.ko",
-"alias" : "pci:v00008086d000010D6sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010A9sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010A7sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010E8sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001526sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000150Dsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010E7sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010E6sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001518sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000150Asv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010C9sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00000440sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000043Csv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000043Asv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00000438sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001516sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001511sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001510sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001527sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000150Fsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000150Esv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001524sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001523sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001522sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001521sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001539sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000157Csv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000157Bsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001538sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001537sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001536sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001533sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001F45sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001F41sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001F40sv*sd*bc*sc*i*" 
-},
-{
-"name" : "igbvf.ko",
-"alias" : "pci:v00008086d00001520sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010CAsv*sd*bc*sc*i*" 
-},
-{
-"name" : "iscsi_tcp.ko"
-},
-{
-"name" : "ixgbe.ko",
-"alias" : "pci:v00008086d000015E5sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015E4sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015CEsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015CCsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015CAsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015C8sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015C7sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015C6sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015C4sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015C3sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015C2sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015AEsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015ADsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015ACsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015ABsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015B0sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015AAsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015D1sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001563sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001560sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001558sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000154Asv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001557sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000154Dsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001528sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010F8sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000151Csv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001529sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000152Asv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010F9sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001514sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001507sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010FBsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001517sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010FCsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010F7sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001508sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010DBsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010F4sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010E1sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010F1sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010ECsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010DDsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000150Bsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010C8sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010C7sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010C6sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010B6sv*sd*bc*sc*i*" 
-},
-{
-"name" : "ixgbevf.ko",
-"alias" : "pci:v00008086d000015C5sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000015A8sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001565sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001515sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d000010EDsv*sd*bc*sc*i*" 
-},
-{
-"name" : "ixgb.ko",
-"alias" : "pci:v00008086d00001B48sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001A48sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d0000109Esv*sd*bc*sc*i*" ,
-"alias" : "pci:v00008086d00001048sv*sd*bc*sc*i*" 
-},
-{
-"name" : "libcrc32c.ko"
-},
-{
-"name" : "libiscsi.ko"
-},
-{
-"name" : "libiscsi_tcp.ko"
-},
-{
-"name" : "libphy.ko"
-},
-{
-"name" : "libsas.ko"
-},
-{
-"name" : "mcs7830.ko",
-"alias" : "usb:v0DF6p0021d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v9710p7730d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v9710p7830d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v9710p7832d*dc*dsc*dp*ic*isc*ip*in*" 
-},
-{
-"name" : "mdio.ko"
-},
-{
-"name" : "megaraid.ko",
-"alias" : "pci:v00008086d00001960sv*sd*bc*sc*i*" ,
-"alias" : "pci:v0000101Ed00009060sv*sd*bc*sc*i*" ,
-"alias" : "pci:v0000101Ed00009010sv*sd*bc*sc*i*" 
-},
-{
-"name" : "megaraid_mbox.ko",
-"alias" : "pci:v00001000d00000409sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00001960sv*sd*bc*sc*i*" ,
-"alias" : "pci:v0000101Ed00001960sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000408sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001028d00000013sv00001028sd00000170bc*sc*i*" ,
-"alias" : "pci:v00001028d00000013sv00001028sd0000016Fbc*sc*i*" ,
-"alias" : "pci:v00001028d00000013sv00001028sd0000016Ebc*sc*i*" ,
-"alias" : "pci:v00001028d00000013sv00001028sd0000016Dbc*sc*i*" ,
-"alias" : "pci:v00001028d00000013sv00001028sd0000016Cbc*sc*i*" ,
-"alias" : "pci:v00001028d0000000Fsv00001028sd0000014Abc*sc*i*" ,
-"alias" : "pci:v00001000d00000407sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00001960sv00001028sd00000518bc*sc*i*" ,
-"alias" : "pci:v00001000d00001960sv00001028sd00000520bc*sc*i*" ,
-"alias" : "pci:v00001028d0000000Esv00001028sd00000123bc*sc*i*" 
-},
-{
-"name" : "megaraid_mm.ko"
-},
-{
-"name" : "megaraid_sas.ko",
-"alias" : "pci:v00001000d0000005Dsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d0000005Bsv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001028d00000015sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000413sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000071sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000073sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000079sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000078sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d0000007Csv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000060sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000411sv*sd*bc*sc*i*" 
-},
-{
-"name" : "mii.ko"
-},
-{
-"name" : "mlx4_core.ko",
-"alias" : "pci:v000015B3d00001010sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000015B3d0000100Fsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000015B3d0000100Esv*sd*bc*sc*i*" ,
-"alias" : "pci:v000015B3d0000100Dsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000015B3d0000100Csv*sd*bc*sc*i*" ,
-"alias" : "pci:v000015B3d0000100Bsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000015B3d0000100Asv*sd*bc*sc*i*" ,
-"alias" : "pci:v000015B3d00001009sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000015B3d00001008sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000015B3d00001007sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000015B3d00001006sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000015B3d00001005sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000015B3d00001004sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000015B3d00001003sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000015B3d00001002sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000015B3d0000676Esv*sd*bc*sc*i*" ,
-"alias" : "pci:v000015B3d00006746sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000015B3d00006764sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000015B3d0000675Asv*sd*bc*sc*i*" ,
-"alias" : "pci:v000015B3d00006372sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000015B3d00006750sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000015B3d00006368sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000015B3d0000673Csv*sd*bc*sc*i*" ,
-"alias" : "pci:v000015B3d00006732sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000015B3d00006354sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000015B3d0000634Asv*sd*bc*sc*i*" ,
-"alias" : "pci:v000015B3d00006340sv*sd*bc*sc*i*" 
-},
-{
-"name" : "mlx4_en.ko"
-},
-{
-"name" : "mpt2sas.ko",
-"alias" : "pci:v00001000d0000007Esv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d0000006Esv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000087sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000086sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000085sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000084sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000083sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000082sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000081sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000080sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000065sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000064sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000077sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000076sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000074sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000072sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000070sv*sd*bc*sc*i*" 
-},
-{
-"name" : "mpt3sas.ko",
-"alias" : "pci:v00001000d00000095sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000094sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000091sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000090sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000097sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000096sv*sd*bc*sc*i*" 
-},
-{
-"name" : "mptbase.ko"
-},
-{
-"name" : "mptctl.ko"
-},
-{
-"name" : "mptsas.ko",
-"alias" : "pci:v00001000d00000059sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000062sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000058sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000056sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000054sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000050sv*sd*bc*sc*i*" 
-},
-{
-"name" : "mptscsih.ko"
-},
-{
-"name" : "mptspi.ko",
-"alias" : "pci:v00001000d00000040sv*sd*bc*sc*i*" ,
-"alias" : "pci:v0000117Cd00000030sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001000d00000030sv*sd*bc*sc*i*" 
-},
-{
-"name" : "pegasus.ko",
-"alias" : "usb:v067Cp1001d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v15E8p9110d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v15E8p9100d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0707p0201d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0707p0200d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v08D1p0003d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0B39p0901d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0B39p0109d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0846p1020d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v045Ep007Ad*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0411p0009d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0411p0005d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0411p0001d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v066Bp200Cd*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v066Bp400Bd*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v077Bp08B4d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v066Bp2206d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v066Bp2204d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v066Bp2203d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v066Bp2202d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v056Ep200Cd*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v056EpABC1d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v056Ep400Bd*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v056Ep4005d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v056Ep4002d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0951p000Ad*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v04BBp093Ad*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v04BBp0913d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v04BBp0904d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v03F0p811Cd*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0E66p400Cd*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v1044p8002d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v05CCp3000d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v1342p0304d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v056Ep4010d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0DB7p0002d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v2001pABC1d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v2001p4003d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v2001p200Cd*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v2001p400Bd*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v2001p4102d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v2001p4002d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v2001p4001d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v07AAp000Dd*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v07AAp0004d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v08DDp8511d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v08DDp0988d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v049Fp8511d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v08DDp0987d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v08DDp0986d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v050Dp0122d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v050Dp0121d*dc00dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v07C9pB100d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v3334p1701d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v07A6p07C2d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v07A6p0986d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v07A6p8515d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v07A6p8513d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v07A6p8511d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v083ApB004d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v083Ap5046d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v083Ap1046d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v07B8p200Cd*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v07B8pABC1d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v07B8p400Cd*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v07B8p400Bd*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v07B8p4002d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v07B8p4102d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v07B8p4007d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v07B8p4004d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v07B8p4104d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v07B8p110Cd*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0557p2007d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0506p4601d*dc*dsc*dp*ic*isc*ip*in*" 
-},
-{
-"name" : "plusb.ko",
-"alias" : "usb:v3923p7825d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v050Dp258Ad*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v067Bp25A1d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v067Bp0001d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v067Bp0000d*dc*dsc*dp*ic*isc*ip*in*" 
-},
-{
-"name" : "qla3xxx.ko",
-"alias" : "pci:v00001077d00003032sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001077d00003022sv*sd*bc*sc*i*" 
-},
-{
-"name" : "qlcnic.ko",
-"alias" : "pci:v00001077d00008430sv*sd*bc02sc00i00*" ,
-"alias" : "pci:v00001077d00008030sv*sd*bc02sc00i00*" ,
-"alias" : "pci:v00001077d00008020sv*sd*bc02sc00i00*" 
-},
-{
-"name" : "qlge.ko",
-"alias" : "pci:v00001077d00008000sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001077d00008012sv*sd*bc*sc*i*" 
-},
-{
-"name" : "r8101.ko",
-"alias" : "pci:v000010ECd00008136sv*sd*bc*sc*i*" 
-},
-{
-"name" : "r8125.ko",
-"alias" : "pci:v000010ECd00003000sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000010ECd00008125sv*sd*bc*sc*i*" 
-},
-{
-"name" : "r8152.ko",
-"alias" : "usb:v0BDAp8152d*dc*dsc*dp*ic*isc*ip*in*" 
-},
-{
-"name" : "r8168.ko",
-"alias" : "pci:v00001186d00004300sv00001186sd00004B10bc*sc*i*" ,
-"alias" : "pci:v000010ECd00002600sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000010ECd00002502sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000010ECd00008161sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000010ECd00008168sv*sd*bc*sc*i*" 
-},
-{
-"name" : "r8169.ko",
-"alias" : "pci:v00000001d00008168sv*sd00002410bc*sc*i*" ,
-"alias" : "pci:v00001737d00001032sv*sd00000024bc*sc*i*" ,
-"alias" : "pci:v000016ECd00000116sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001259d0000C107sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001186d00004302sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001186d00004300sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001186d00004300sv00001186sd00004B10bc*sc*i*" ,
-"alias" : "pci:v000010ECd00008169sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000010ECd00008168sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000010ECd00008167sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000010ECd00008136sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000010ECd00008129sv*sd*bc*sc*i*" 
-},
-{
-"name" : "raid_class.ko"
-},
-{
-"name" : "redpill.ko"
-},
-{
-"name" : "rtl8150.ko",
-"alias" : "usb:v0586p401Ad*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v1557p8150d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v07B8p401Ad*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v3980p0003d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0411p0012d*dc*dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v0BDAp8150d*dc*dsc*dp*ic*isc*ip*in*" 
-},
-{
-"name" : "scsi_transport_sas.ko"
-},
-{
-"name" : "scsi_transport_spi.ko"
-},
-{
-"name" : "sg.ko"
-},
-{
-"name" : "skge.ko",
-"alias" : "pci:v00001737d00001032sv*sd00000015bc*sc*i*" ,
-"alias" : "pci:v00001737d00001064sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001371d0000434Esv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00005005sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004320sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001186d00004302sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001186d00004C00sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001186d00004B01sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001148d00004320sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000010B7d000080EBsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000010B7d00001700sv*sd*bc*sc*i*" 
-},
-{
-"name" : "sky2.ko",
-"alias" : "pci:v000011ABd00004382sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004381sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004380sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004370sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd0000436Dsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd0000436Csv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd0000436Bsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd0000436Asv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004369sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004368sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004367sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004366sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004365sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004364sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004363sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004362sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004361sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004360sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd0000435Asv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004357sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004356sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004355sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004354sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004353sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004352sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004351sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004350sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004347sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004346sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004345sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004344sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004343sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004342sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004341sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000011ABd00004340sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001186d00004B03sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001186d00004B02sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001186d00004001sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001186d00004B00sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001148d00009E01sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001148d00009E00sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001148d00009000sv*sd*bc*sc*i*" 
-},
-{
-"name" : "tg3.ko",
-"alias" : "pci:v000010CFd000011A2sv*sd*bc*sc*i*" ,
-"alias" : "pci:v0000106Bd00001645sv*sd*bc*sc*i*" ,
-"alias" : "pci:v0000173Bd000003EAsv*sd*bc*sc*i*" ,
-"alias" : "pci:v0000173Bd000003EBsv*sd*bc*sc*i*" ,
-"alias" : "pci:v0000173Bd000003E9sv*sd*bc*sc*i*" ,
-"alias" : "pci:v0000173Bd000003E8sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001148d00004500sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001148d00004400sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016F3sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001643sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001687sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001686sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001682sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000165Fsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001657sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016B6sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016B2sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016B4sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016B0sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016B5sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016B1sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001656sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001665sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001655sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001691sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001694sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001690sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001692sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001692sv00001025sd00000612bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001692sv00001025sd00000601bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016A0sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001699sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001689sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001688sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001680sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001681sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000165Bsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001684sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001698sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001713sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001712sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016DDsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000166Bsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000166Asv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001679sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001678sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001669sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001668sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000167Fsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001693sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001693sv000017AAsd00003056bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000169Bsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000169Asv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001674sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001673sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000167Bsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001672sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000167Asv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016FEsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016FDsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016F7sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001601sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001600sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000167Esv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000167Dsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001677sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001676sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000165Asv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001659sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000166Esv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001649sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000170Esv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000170Dsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000169Dsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000169Csv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001696sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016C7sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016C6sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016A8sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016A7sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d000016A6sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000165Esv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000165Dsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001654sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001653sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d0000164Dsv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001648sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001647sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001646sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001645sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000014E4d00001644sv*sd*bc*sc*i*" 
-},
-{
-"name" : "tn40xx.ko",
-"alias" : "pci:v00001FC9d00004025sv00001432sd00008102bc*sc*i*" ,
-"alias" : "pci:v00001FC9d00004025sv00001FC9sd00003015bc*sc*i*" ,
-"alias" : "pci:v00001FC9d00004025sv00001186sd00002900bc*sc*i*" ,
-"alias" : "pci:v00001FC9d00004026sv00001FC9sd00003015bc*sc*i*" ,
-"alias" : "pci:v00001FC9d00004027sv00001432sd00008104bc*sc*i*" ,
-"alias" : "pci:v00001FC9d00004027sv00001FC9sd00003015bc*sc*i*" ,
-"alias" : "pci:v00001FC9d00004022sv00001432sd00008103bc*sc*i*" ,
-"alias" : "pci:v00001FC9d00004022sv00001043sd00008709bc*sc*i*" ,
-"alias" : "pci:v00001FC9d00004022sv00001186sd00004D00bc*sc*i*" ,
-"alias" : "pci:v00001FC9d00004022sv00001FC9sd00003015bc*sc*i*" ,
-"alias" : "pci:v00001FC9d00004020sv00001FC9sd00003015bc*sc*i*" ,
-"alias" : "pci:v00001FC9d00004010sv00001FC9sd00004010bc*sc*i*" 
-},
-{
-"name" : "usbcore.ko",
-"alias" : "usb:v*p*d*dc*dsc*dp*ic09isc*ip*in*" ,
-"alias" : "usb:v*p*d*dc09dsc*dp*ic*isc*ip*in*" ,
-"alias" : "usb:v05E3p*d*dc*dsc*dp*ic09isc*ip*in*" 
-},
-{
-"name" : "usbnet.ko"
-},
-{
-"name" : "via-rhine.ko",
-"alias" : "pci:v00001106d00003053sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001106d00003106sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001106d00003065sv*sd*bc*sc*i*" ,
-"alias" : "pci:v00001106d00003043sv*sd*bc*sc*i*" 
-},
-{
-"name" : "via-velocity.ko",
-"alias" : "pci:v00001106d00003119sv*sd*bc*sc*i*" 
-},
-{
-"name" : "virtio_blk.ko"
-},
-{
-"name" : "virtio.ko"
-},
-{
-"name" : "virtio_mmio.ko"
-},
-{
-"name" : "virtio_net.ko"
-},
-{
-"name" : "virtio_pci.ko",
-"alias" : "pci:v00001AF4d*sv*sd*bc*sc*i*" 
-},
-{
-"name" : "virtio_ring.ko"
-},
-{
-"name" : "virtio_scsi.ko"
-},
-{
-"name" : "vmw_pvscsi.ko",
-"alias" : "pci:v000015ADd000007C0sv*sd*bc*sc*i*" 
-},
-{
-"name" : "vmxnet3.ko",
-"alias" : "pci:v000015ADd000007B0sv*sd*bc*sc*i*" 
-},
-{
-"name" : "vxge.ko",
-"alias" : "pci:v000017D5d00005833sv*sd*bc*sc*i*" ,
-"alias" : "pci:v000017D5d00005733sv*sd*bc*sc*i*" 
+"name" :  "3w-9xxx.ko",
+"alias" :  "pci:v000013C1d00001005sv*sd*bc*sc*i*"
+},
+{
+"name" :  "3w-9xxx.ko",
+"alias" :  "pci:v000013C1d00001004sv*sd*bc*sc*i*"
+},
+{
+"name" :  "3w-9xxx.ko",
+"alias" :  "pci:v000013C1d00001003sv*sd*bc*sc*i*"
+},
+{
+"name" :  "3w-9xxx.ko",
+"alias" :  "pci:v000013C1d00001002sv*sd*bc*sc*i*"
+},
+{
+"name" :  "3w-sas.ko",
+"alias" :  "pci:v000013C1d00001010sv*sd*bc*sc*i*"
+},
+{
+"name" :  "3w-xxxx.ko",
+"alias" :  "pci:v000013C1d00001001sv*sd*bc*sc*i*"
+},
+{
+"name" :  "3w-xxxx.ko",
+"alias" :  "pci:v000013C1d00001000sv*sd*bc*sc*i*"
+},
+{
+"name" :  "8139cp.ko",
+"alias" :  "pci:v00000357d0000000Asv*sd*bc*sc*i*"
+},
+{
+"name" :  "8139cp.ko",
+"alias" :  "pci:v000010ECd00008139sv*sd*bc*sc*i*"
+},
+{
+"name" :  "8139too.ko",
+"alias" :  "pci:v*d00008139sv000013D1sd0000AB06bc*sc*i*"
+},
+{
+"name" :  "8139too.ko",
+"alias" :  "pci:v*d00008139sv00001186sd00001300bc*sc*i*"
+},
+{
+"name" :  "8139too.ko",
+"alias" :  "pci:v*d00008139sv000010ECsd00008139bc*sc*i*"
+},
+{
+"name" :  "8139too.ko",
+"alias" :  "pci:v0000021Bd00008139sv*sd*bc*sc*i*"
+},
+{
+"name" :  "8139too.ko",
+"alias" :  "pci:v00001743d00008139sv*sd*bc*sc*i*"
+},
+{
+"name" :  "8139too.ko",
+"alias" :  "pci:v0000126Cd00001211sv*sd*bc*sc*i*"
+},
+{
+"name" :  "8139too.ko",
+"alias" :  "pci:v0000018Ad00000106sv*sd*bc*sc*i*"
+},
+{
+"name" :  "8139too.ko",
+"alias" :  "pci:v000002ACd00001012sv*sd*bc*sc*i*"
+},
+{
+"name" :  "8139too.ko",
+"alias" :  "pci:v00001432d00009130sv*sd*bc*sc*i*"
+},
+{
+"name" :  "8139too.ko",
+"alias" :  "pci:v000011DBd00001234sv*sd*bc*sc*i*"
+},
+{
+"name" :  "8139too.ko",
+"alias" :  "pci:v000014EAd0000AB07sv*sd*bc*sc*i*"
+},
+{
+"name" :  "8139too.ko",
+"alias" :  "pci:v000014EAd0000AB06sv*sd*bc*sc*i*"
+},
+{
+"name" :  "8139too.ko",
+"alias" :  "pci:v00001259d0000A11Esv*sd*bc*sc*i*"
+},
+{
+"name" :  "8139too.ko",
+"alias" :  "pci:v00001259d0000A117sv*sd*bc*sc*i*"
+},
+{
+"name" :  "8139too.ko",
+"alias" :  "pci:v000013D1d0000AB06sv*sd*bc*sc*i*"
+},
+{
+"name" :  "8139too.ko",
+"alias" :  "pci:v00001186d00001340sv*sd*bc*sc*i*"
+},
+{
+"name" :  "8139too.ko",
+"alias" :  "pci:v00001186d00001300sv*sd*bc*sc*i*"
+},
+{
+"name" :  "8139too.ko",
+"alias" :  "pci:v00004033d00001360sv*sd*bc*sc*i*"
+},
+{
+"name" :  "8139too.ko",
+"alias" :  "pci:v00001500d00001360sv*sd*bc*sc*i*"
+},
+{
+"name" :  "8139too.ko",
+"alias" :  "pci:v00001113d00001211sv*sd*bc*sc*i*"
+},
+{
+"name" :  "8139too.ko",
+"alias" :  "pci:v000010ECd00008138sv*sd*bc*sc*i*"
+},
+{
+"name" :  "8139too.ko",
+"alias" :  "pci:v000010ECd00008139sv*sd*bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d0000028Dsv*sd*bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d0000028Csv*sd*bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d0000028Bsv*sd*bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000288sv*sd*bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000286sv*sd*bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv*sd*bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv000017AAsd*bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv00001028sd*bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00001011d00000046sv0000103Csd000010C2bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00001011d00000046sv00009005sd00001364bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00001011d00000046sv00009005sd00000364bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00001011d00000046sv00009005sd00000365bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv00001028sd00000287bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000286sv00009005sd000002A2bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv00009005sd0000029Abc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv00009005sd00000299bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv00009005sd00000298bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000286sv00001014sd00009540bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000286sv00001014sd00009580bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv00001014sd00000312bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv00001014sd000002F2bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv00009005sd00000297bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv00009005sd00000296bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv0000103Csd00003227bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv00009005sd00000294bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv00009005sd00000293bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv00009005sd00000292bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv00001028sd00000291bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv00009005sd00000290bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv00009005sd0000028Fbc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv00009005sd0000028Ebc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000286sv00009005sd00000800bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000200sv00009005sd00000200bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000287sv00009005sd00000800bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000286sv00009005sd000002A6bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv00009005sd000002A5bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv00009005sd000002A4bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000286sv00009005sd000002A3bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000286sv00009005sd000002A1bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000286sv00009005sd000002A0bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000286sv00009005sd0000029Fbc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000286sv00009005sd0000029Ebc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000286sv00009005sd0000029Dbc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000286sv00009005sd0000029Cbc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000286sv00009005sd0000029Bbc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000286sv00009005sd0000028Dbc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000286sv00009005sd0000028Cbc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv00009005sd0000028Bbc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv00009005sd0000028Abc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv00009005sd00000289bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv00009005sd00000288bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv000017AAsd00000287bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv000017AAsd00000286bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv00009005sd00000287bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv00009005sd00000285bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000285sv00009005sd00000286bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000284sv00009005sd00000284bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00009005d00000283sv00009005sd00000283bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00001028d0000000Asv00001028sd00000121bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00001028d0000000Asv00001028sd0000011Bbc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00001028d0000000Asv00001028sd00000106bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00001028d00000002sv00001028sd000000D9bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00001028d00000002sv00001028sd000000D1bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00001028d00000004sv00001028sd000000D0bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00001028d00000003sv00001028sd00000003bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00001028d00000002sv00001028sd00000002bc*sc*i*"
+},
+{
+"name" :  "aacraid.ko",
+"alias" :  "pci:v00001028d00000001sv00001028sd00000001bc*sc*i*"
+},
+{
+"name" :  "aic94xx.ko",
+"alias" :  "pci:v00009005d0000043Fsv*sd*bc*sc*i*"
+},
+{
+"name" :  "aic94xx.ko",
+"alias" :  "pci:v00009005d0000043Esv*sd*bc*sc*i*"
+},
+{
+"name" :  "aic94xx.ko",
+"alias" :  "pci:v00009005d00000432sv*sd*bc*sc*i*"
+},
+{
+"name" :  "aic94xx.ko",
+"alias" :  "pci:v00009005d00000430sv*sd*bc*sc*i*"
+},
+{
+"name" :  "aic94xx.ko",
+"alias" :  "pci:v00009005d0000041Fsv*sd*bc*sc*i*"
+},
+{
+"name" :  "aic94xx.ko",
+"alias" :  "pci:v00009005d0000041Esv*sd*bc*sc*i*"
+},
+{
+"name" :  "aic94xx.ko",
+"alias" :  "pci:v00009005d00000416sv*sd*bc*sc*i*"
+},
+{
+"name" :  "aic94xx.ko",
+"alias" :  "pci:v00009005d00000412sv*sd*bc*sc*i*"
+},
+{
+"name" :  "aic94xx.ko",
+"alias" :  "pci:v00009005d00000410sv*sd*bc*sc*i*"
+},
+{
+"name" :  "alx.ko",
+"alias" :  "pci:v00001969d000010A0sv*sd*bc*sc*i*"
+},
+{
+"name" :  "alx.ko",
+"alias" :  "pci:v00001969d000010A1sv*sd*bc*sc*i*"
+},
+{
+"name" :  "alx.ko",
+"alias" :  "pci:v00001969d00001090sv*sd*bc*sc*i*"
+},
+{
+"name" :  "alx.ko",
+"alias" :  "pci:v00001969d0000E091sv*sd*bc*sc*i*"
+},
+{
+"name" :  "alx.ko",
+"alias" :  "pci:v00001969d00001091sv*sd*bc*sc*i*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v066Bp20F9d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v0B95p172Ad*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v0B95p7E2Bd*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v0DB0pA877d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v14EApAB11d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v0B95p772Ad*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v05ACp1402d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v050Dp5055d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v04BBp0930d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v1737p0039d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v2001p1A02d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v2001p3C05d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v07D1p3C05d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v1557p7720d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v13B1p0018d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v0789p0160d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v0B95p1780d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v0B95p7720d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v0B95p772Bd*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v17EFp7203d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v04F1p3008d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v1631p6200d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v1189p0893d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v07AAp0017d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v0DF6p0056d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v6189p182Dd*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v0411p006Ed*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v0411p003Dd*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v0557p2009d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v08DDp90FFd*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v07B8p420Ad*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v0B95p1720d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v2001p1A00d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v0846p1040d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "asix.ko",
+"alias" :  "usb:v077Bp2226d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "atl1c.ko",
+"alias" :  "pci:v00001969d00001083sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atl1c.ko",
+"alias" :  "pci:v00001969d00001073sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atl1c.ko",
+"alias" :  "pci:v00001969d00002062sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atl1c.ko",
+"alias" :  "pci:v00001969d00002060sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atl1c.ko",
+"alias" :  "pci:v00001969d00001062sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atl1c.ko",
+"alias" :  "pci:v00001969d00001063sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atl1e.ko",
+"alias" :  "pci:v00001969d00001066sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atl1e.ko",
+"alias" :  "pci:v00001969d00001026sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atl1.ko",
+"alias" :  "pci:v00001969d00001048sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atl2.ko",
+"alias" :  "pci:v00001969d00002048sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atlantic.ko",
+"alias" :  "pci:v00001D6Ad000093C0sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atlantic.ko",
+"alias" :  "pci:v00001D6Ad000094C0sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atlantic.ko",
+"alias" :  "pci:v00001D6Ad000011C0sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atlantic.ko",
+"alias" :  "pci:v00001D6Ad000012C0sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atlantic.ko",
+"alias" :  "pci:v00001D6Ad000034C0sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atlantic.ko",
+"alias" :  "pci:v00001D6Ad000014C0sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atlantic.ko",
+"alias" :  "pci:v00001D6Ad000000C0sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atlantic.ko",
+"alias" :  "pci:v00001D6Ad000004C0sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atlantic.ko",
+"alias" :  "pci:v00001D6Ad000092B1sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atlantic.ko",
+"alias" :  "pci:v00001D6Ad000091B1sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atlantic.ko",
+"alias" :  "pci:v00001D6Ad000089B1sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atlantic.ko",
+"alias" :  "pci:v00001D6Ad000088B1sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atlantic.ko",
+"alias" :  "pci:v00001D6Ad000087B1sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atlantic.ko",
+"alias" :  "pci:v00001D6Ad000080B1sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atlantic.ko",
+"alias" :  "pci:v00001D6Ad000012B1sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atlantic.ko",
+"alias" :  "pci:v00001D6Ad000011B1sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atlantic.ko",
+"alias" :  "pci:v00001D6Ad000009B1sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atlantic.ko",
+"alias" :  "pci:v00001D6Ad000008B1sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atlantic.ko",
+"alias" :  "pci:v00001D6Ad000007B1sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atlantic.ko",
+"alias" :  "pci:v00001D6Ad000000B1sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atlantic.ko",
+"alias" :  "pci:v00001D6Ad0000D109sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atlantic.ko",
+"alias" :  "pci:v00001D6Ad0000D108sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atlantic.ko",
+"alias" :  "pci:v00001D6Ad0000D107sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atlantic.ko",
+"alias" :  "pci:v00001D6Ad0000D100sv*sd*bc*sc*i*"
+},
+{
+"name" :  "atlantic.ko",
+"alias" :  "pci:v00001D6Ad00000001sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ax88179_178a.ko",
+"alias" :  "usb:v0DF6p0072d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "ax88179_178a.ko",
+"alias" :  "usb:v0B95p178Ad*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "ax88179_178a.ko",
+"alias" :  "usb:v0B95p1790d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "be2net.ko",
+"alias" :  "pci:v000010DFd00000728sv*sd*bc*sc*i*"
+},
+{
+"name" :  "be2net.ko",
+"alias" :  "pci:v000010DFd00000720sv*sd*bc*sc*i*"
+},
+{
+"name" :  "be2net.ko",
+"alias" :  "pci:v000010DFd0000E228sv*sd*bc*sc*i*"
+},
+{
+"name" :  "be2net.ko",
+"alias" :  "pci:v000010DFd0000E220sv*sd*bc*sc*i*"
+},
+{
+"name" :  "be2net.ko",
+"alias" :  "pci:v000019A2d00000710sv*sd*bc*sc*i*"
+},
+{
+"name" :  "be2net.ko",
+"alias" :  "pci:v000019A2d00000700sv*sd*bc*sc*i*"
+},
+{
+"name" :  "be2net.ko",
+"alias" :  "pci:v000019A2d00000221sv*sd*bc*sc*i*"
+},
+{
+"name" :  "be2net.ko",
+"alias" :  "pci:v000019A2d00000211sv*sd*bc*sc*i*"
+},
+{
+"name" :  "bna.ko",
+"alias" :  "pci:v00001657d00000022sv*sd*bc02sc00i*"
+},
+{
+"name" :  "bna.ko",
+"alias" :  "pci:v00001657d00000014sv*sd*bc02sc00i*"
+},
+{
+"name" :  "bnx2.ko",
+"alias" :  "pci:v000014E4d0000163Csv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2.ko",
+"alias" :  "pci:v000014E4d0000163Bsv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2.ko",
+"alias" :  "pci:v000014E4d0000163Asv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2.ko",
+"alias" :  "pci:v000014E4d00001639sv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2.ko",
+"alias" :  "pci:v000014E4d000016ACsv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2.ko",
+"alias" :  "pci:v000014E4d000016AAsv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2.ko",
+"alias" :  "pci:v000014E4d000016AAsv0000103Csd00003102bc*sc*i*"
+},
+{
+"name" :  "bnx2.ko",
+"alias" :  "pci:v000014E4d0000164Csv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2.ko",
+"alias" :  "pci:v000014E4d0000164Asv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2.ko",
+"alias" :  "pci:v000014E4d0000164Asv0000103Csd00003106bc*sc*i*"
+},
+{
+"name" :  "bnx2.ko",
+"alias" :  "pci:v000014E4d0000164Asv0000103Csd00003101bc*sc*i*"
+},
+{
+"name" :  "bnx2x.ko",
+"alias" :  "pci:v000014E4d0000163Fsv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2x.ko",
+"alias" :  "pci:v000014E4d0000163Esv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2x.ko",
+"alias" :  "pci:v000014E4d0000163Dsv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2x.ko",
+"alias" :  "pci:v000014E4d000016ADsv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2x.ko",
+"alias" :  "pci:v000014E4d000016A4sv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2x.ko",
+"alias" :  "pci:v000014E4d000016ABsv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2x.ko",
+"alias" :  "pci:v000014E4d000016AFsv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2x.ko",
+"alias" :  "pci:v000014E4d000016A2sv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2x.ko",
+"alias" :  "pci:v000014E4d000016A1sv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2x.ko",
+"alias" :  "pci:v000014E4d0000168Dsv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2x.ko",
+"alias" :  "pci:v000014E4d000016AEsv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2x.ko",
+"alias" :  "pci:v000014E4d0000168Esv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2x.ko",
+"alias" :  "pci:v000014E4d000016A9sv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2x.ko",
+"alias" :  "pci:v000014E4d000016A5sv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2x.ko",
+"alias" :  "pci:v000014E4d0000168Asv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2x.ko",
+"alias" :  "pci:v000014E4d0000166Fsv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2x.ko",
+"alias" :  "pci:v000014E4d00001663sv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2x.ko",
+"alias" :  "pci:v000014E4d00001662sv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2x.ko",
+"alias" :  "pci:v000014E4d00001650sv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2x.ko",
+"alias" :  "pci:v000014E4d0000164Fsv*sd*bc*sc*i*"
+},
+{
+"name" :  "bnx2x.ko",
+"alias" :  "pci:v000014E4d0000164Esv*sd*bc*sc*i*"
+},
+{
+"name" :  "BusLogic.ko",
+"alias" :  "pci:v0000104Bd00008130sv*sd*bc*sc*i*"
+},
+{
+"name" :  "BusLogic.ko",
+"alias" :  "pci:v0000104Bd00000140sv*sd*bc*sc*i*"
+},
+{
+"name" :  "BusLogic.ko",
+"alias" :  "pci:v0000104Bd00001040sv*sd*bc*sc*i*"
+},
+{
+"name" :  "cdc_ether.ko",
+"alias" :  "usb:v12D1p*d*dc*dsc*dp*ic02isc06ipFFin*"
+},
+{
+"name" :  "cdc_ether.ko",
+"alias" :  "usb:v*p*d*dc*dsc*dp*ic02isc0Aip00in*"
+},
+{
+"name" :  "cdc_ether.ko",
+"alias" :  "usb:v*p*d*dc*dsc*dp*ic02isc06ip00in*"
+},
+{
+"name" :  "cdc_ether.ko",
+"alias" :  "usb:v1BC7p*d*dc*dsc*dp*ic02isc06ip00in*"
+},
+{
+"name" :  "cdc_ether.ko",
+"alias" :  "usb:v19D2p1181d*dc*dsc*dp*ic02isc06ip00in*"
+},
+{
+"name" :  "cdc_ether.ko",
+"alias" :  "usb:v19D2p1177d*dc*dsc*dp*ic02isc06ip00in*"
+},
+{
+"name" :  "cdc_ether.ko",
+"alias" :  "usb:v19D2p1173d*dc*dsc*dp*ic02isc06ip00in*"
+},
+{
+"name" :  "cdc_ether.ko",
+"alias" :  "usb:v19D2p1015d*dc*dsc*dp*ic02isc06ip00in*"
+},
+{
+"name" :  "cdc_ether.ko",
+"alias" :  "usb:v19D2p1003d*dc*dsc*dp*ic02isc06ip00in*"
+},
+{
+"name" :  "cdc_ether.ko",
+"alias" :  "usb:v12D1p14ACd*dc*dsc*dp*ic*isc*ip*in01*"
+},
+{
+"name" :  "cdc_ether.ko",
+"alias" :  "usb:v16D5p650Ad*dc*dsc*dp*ic02isc06ip00in*"
+},
+{
+"name" :  "cdc_ether.ko",
+"alias" :  "usb:v413Cp819Bd*dc*dsc*dp*ic02isc06ip00in*"
+},
+{
+"name" :  "cdc_ether.ko",
+"alias" :  "usb:v413Cp8196d*dc*dsc*dp*ic02isc06ip00in*"
+},
+{
+"name" :  "cdc_ether.ko",
+"alias" :  "usb:v413Cp8195d*dc*dsc*dp*ic02isc06ip00in*"
+},
+{
+"name" :  "cdc_ether.ko",
+"alias" :  "usb:v1410p9010d*dc*dsc*dp*ic02isc06ip00in*"
+},
+{
+"name" :  "cdc_ether.ko",
+"alias" :  "usb:v1410pB001d*dc*dsc*dp*ic02isc06ip00in*"
+},
+{
+"name" :  "cdc_ether.ko",
+"alias" :  "usb:v046DpC11Fd*dc*dsc*dp*ic02isc0Aip00in*"
+},
+{
+"name" :  "cdc_ether.ko",
+"alias" :  "usb:v1004p61AAd*dc*dsc*dp*ic02isc06ip00in*"
+},
+{
+"name" :  "cdc_ether.ko",
+"alias" :  "usb:v07B4p0F02d*dc*dsc*dp*ic02isc06ip00in*"
+},
+{
+"name" :  "cdc_ether.ko",
+"alias" :  "usb:v04DDp9050d*dc*dsc*dp*ic02isc06ip00in*"
+},
+{
+"name" :  "cdc_ether.ko",
+"alias" :  "usb:v04DDp9032d*dc*dsc*dp*ic02isc06ip00in*"
+},
+{
+"name" :  "cdc_ether.ko",
+"alias" :  "usb:v04DDp9031d*dc*dsc*dp*ic02isc06ip00in*"
+},
+{
+"name" :  "cdc_ether.ko",
+"alias" :  "usb:v04DDp8007d*dc*dsc*dp*ic02isc06ip00in*"
+},
+{
+"name" :  "cdc_ether.ko",
+"alias" :  "usb:v04DDp8006d*dc*dsc*dp*ic02isc06ip00in*"
+},
+{
+"name" :  "cdc_ether.ko",
+"alias" :  "usb:v04DDp8005d*dc*dsc*dp*ic02isc06ip00in*"
+},
+{
+"name" :  "cdc_ether.ko",
+"alias" :  "usb:v04DDp8004d*dc*dsc*dp*ic02isc06ip00in*"
+},
+{
+"name" :  "cdc_ncm.ko",
+"alias" :  "usb:v*p*d*dc*dsc*dp*ic02isc0Dip00in*"
+},
+{
+"name" :  "cdc_ncm.ko",
+"alias" :  "usb:v1519p0443d*dc*dsc*dp*ic02isc0Dip00in*"
+},
+{
+"name" :  "cdc_ncm.ko",
+"alias" :  "usb:v12D1p*d*dc*dsc*dp*icFFisc02ip76in*"
+},
+{
+"name" :  "cdc_ncm.ko",
+"alias" :  "usb:v12D1p*d*dc*dsc*dp*icFFisc02ip46in*"
+},
+{
+"name" :  "cdc_ncm.ko",
+"alias" :  "usb:v12D1p*d*dc*dsc*dp*icFFisc02ip16in*"
+},
+{
+"name" :  "cdc_ncm.ko",
+"alias" :  "usb:v12D1p*d*dc*dsc*dp*ic02isc0Dip00in*"
+},
+{
+"name" :  "cdc_ncm.ko",
+"alias" :  "usb:v0930p*d*dc*dsc*dp*ic02isc0Dip00in*"
+},
+{
+"name" :  "cdc_ncm.ko",
+"alias" :  "usb:v413Cp*d*dc*dsc*dp*ic02isc0Dip00in*"
+},
+{
+"name" :  "cdc_ncm.ko",
+"alias" :  "usb:v0BDBp*d*dc*dsc*dp*ic02isc0Dip00in*"
+},
+{
+"name" :  "dm9601.ko",
+"alias" :  "usb:v0A46p9620d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "dm9601.ko",
+"alias" :  "usb:v0A46p9000d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "dm9601.ko",
+"alias" :  "usb:v0FE6p9700d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "dm9601.ko",
+"alias" :  "usb:v0FE6p8101d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "dm9601.ko",
+"alias" :  "usb:v0A47p9601d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "dm9601.ko",
+"alias" :  "usb:v0A46p8515d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "dm9601.ko",
+"alias" :  "usb:v0A46p0268d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "dm9601.ko",
+"alias" :  "usb:v0A46p6688d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "dm9601.ko",
+"alias" :  "usb:v0A46p9601d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "dm9601.ko",
+"alias" :  "usb:v07AAp9601d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d00001A1Dsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d00001A1Csv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d00001A1Fsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d00001A1Esv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000015F5sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000015F4sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000015FAsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000015F9sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000015FCsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000015FBsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d00000D4Dsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d00000D4Csv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d00000D4Fsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d00000D4Esv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000015E2sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000015E1sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000015E0sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000015DFsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000015BCsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000015BBsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000015BEsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000015BDsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d00000D55sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d00000D53sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000015D6sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000015E3sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000015D8sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000015D7sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000015B9sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000015B8sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000015B7sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d00001570sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d0000156Fsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000015A3sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000015A2sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000015A1sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000015A0sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d00001559sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d0000155Asv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d0000153Bsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d0000153Asv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d00001503sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d00001502sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010F0sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010EFsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010EBsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010EAsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d00001525sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010DFsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010DEsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010CEsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010CDsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010CCsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010CBsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010F5sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010BFsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010E5sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d0000294Csv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010BDsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010C3sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010C2sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010C0sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d00001501sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d00001049sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d0000104Dsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d0000104Bsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d0000104Asv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010C4sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010C5sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d0000104Csv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010BBsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d00001098sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010BAsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d00001096sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d0000150Csv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010F6sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010D3sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d0000109Asv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d0000108Csv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d0000108Bsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d0000107Fsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d0000107Esv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d0000107Dsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010B9sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010D5sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010DAsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010D9sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d00001060sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010A5sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010BCsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d000010A4sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d0000105Fsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000e.ko",
+"alias" :  "pci:v00008086d0000105Esv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d00002E6Esv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d000010B5sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d00001099sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d0000108Asv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d0000107Csv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d0000107Bsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d0000107Asv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d00001079sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d00001078sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d00001077sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d00001076sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d00001075sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d00001028sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d00001027sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d00001026sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d0000101Esv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d0000101Dsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d0000101Asv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d00001019sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d00001018sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d00001017sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d00001016sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d00001015sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d00001014sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d00001013sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d00001012sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d00001011sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d00001010sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d0000100Fsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d0000100Esv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d0000100Dsv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d0000100Csv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d00001009sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d00001008sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d00001004sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d00001001sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e1000.ko",
+"alias" :  "pci:v00008086d00001000sv*sd*bc*sc*i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d000027DCsv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d0000245Dsv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00002459sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00002449sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001229sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001209sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d000010FEsv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001095sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001094sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001093sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001092sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001091sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d0000106Bsv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d0000106Asv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001069sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001068sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001067sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001066sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001065sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001064sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001059sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001057sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001056sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001055sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001054sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001053sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001052sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001051sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001050sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d0000103Esv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d0000103Dsv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d0000103Csv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d0000103Bsv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d0000103Asv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001039sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001038sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001034sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001033sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001032sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001031sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001030sv*sd*bc02sc00i*"
+},
+{
+"name" :  "e100.ko",
+"alias" :  "pci:v00008086d00001029sv*sd*bc02sc00i*"
+},
+{
+"name" :  "hpsa.ko",
+"alias" :  "pci:v0000103Cd*sv*sd*bc01sc04i*"
+},
+{
+"name" :  "hpsa.ko",
+"alias" :  "pci:v0000103Cd0000323Bsv0000103Csd0000334Dbc*sc*i*"
+},
+{
+"name" :  "hpsa.ko",
+"alias" :  "pci:v0000103Cd0000323Csv0000103Csd00001928bc*sc*i*"
+},
+{
+"name" :  "hpsa.ko",
+"alias" :  "pci:v0000103Cd0000323Csv0000103Csd00001926bc*sc*i*"
+},
+{
+"name" :  "hpsa.ko",
+"alias" :  "pci:v0000103Cd0000323Csv0000103Csd00001925bc*sc*i*"
+},
+{
+"name" :  "hpsa.ko",
+"alias" :  "pci:v0000103Cd0000323Csv0000103Csd00001924bc*sc*i*"
+},
+{
+"name" :  "hpsa.ko",
+"alias" :  "pci:v0000103Cd0000323Csv0000103Csd00001923bc*sc*i*"
+},
+{
+"name" :  "hpsa.ko",
+"alias" :  "pci:v0000103Cd0000323Csv0000103Csd00001922bc*sc*i*"
+},
+{
+"name" :  "hpsa.ko",
+"alias" :  "pci:v0000103Cd0000323Csv0000103Csd00001921bc*sc*i*"
+},
+{
+"name" :  "hpsa.ko",
+"alias" :  "pci:v0000103Cd0000323Csv0000103Csd00001920bc*sc*i*"
+},
+{
+"name" :  "hpsa.ko",
+"alias" :  "pci:v0000103Cd0000323Bsv0000103Csd00003356bc*sc*i*"
+},
+{
+"name" :  "hpsa.ko",
+"alias" :  "pci:v0000103Cd0000323Bsv0000103Csd00003355bc*sc*i*"
+},
+{
+"name" :  "hpsa.ko",
+"alias" :  "pci:v0000103Cd0000323Bsv0000103Csd00003354bc*sc*i*"
+},
+{
+"name" :  "hpsa.ko",
+"alias" :  "pci:v0000103Cd0000323Bsv0000103Csd00003353bc*sc*i*"
+},
+{
+"name" :  "hpsa.ko",
+"alias" :  "pci:v0000103Cd0000323Bsv0000103Csd00003352bc*sc*i*"
+},
+{
+"name" :  "hpsa.ko",
+"alias" :  "pci:v0000103Cd0000323Bsv0000103Csd00003351bc*sc*i*"
+},
+{
+"name" :  "hpsa.ko",
+"alias" :  "pci:v0000103Cd0000323Bsv0000103Csd00003350bc*sc*i*"
+},
+{
+"name" :  "hpsa.ko",
+"alias" :  "pci:v0000103Cd0000323Asv0000103Csd00003233bc*sc*i*"
+},
+{
+"name" :  "hpsa.ko",
+"alias" :  "pci:v0000103Cd0000323Asv0000103Csd0000324Bbc*sc*i*"
+},
+{
+"name" :  "hpsa.ko",
+"alias" :  "pci:v0000103Cd0000323Asv0000103Csd0000324Abc*sc*i*"
+},
+{
+"name" :  "hpsa.ko",
+"alias" :  "pci:v0000103Cd0000323Asv0000103Csd00003249bc*sc*i*"
+},
+{
+"name" :  "hpsa.ko",
+"alias" :  "pci:v0000103Cd0000323Asv0000103Csd00003247bc*sc*i*"
+},
+{
+"name" :  "hpsa.ko",
+"alias" :  "pci:v0000103Cd0000323Asv0000103Csd00003245bc*sc*i*"
+},
+{
+"name" :  "hpsa.ko",
+"alias" :  "pci:v0000103Cd0000323Asv0000103Csd00003243bc*sc*i*"
+},
+{
+"name" :  "hpsa.ko",
+"alias" :  "pci:v0000103Cd0000323Asv0000103Csd00003241bc*sc*i*"
+},
+{
+"name" :  "i40e.ko",
+"alias" :  "pci:v00008086d0000158Bsv*sd*bc*sc*i*"
+},
+{
+"name" :  "i40e.ko",
+"alias" :  "pci:v00008086d0000158Asv*sd*bc*sc*i*"
+},
+{
+"name" :  "i40e.ko",
+"alias" :  "pci:v00008086d000037D3sv*sd*bc*sc*i*"
+},
+{
+"name" :  "i40e.ko",
+"alias" :  "pci:v00008086d000037D2sv*sd*bc*sc*i*"
+},
+{
+"name" :  "i40e.ko",
+"alias" :  "pci:v00008086d000037D1sv*sd*bc*sc*i*"
+},
+{
+"name" :  "i40e.ko",
+"alias" :  "pci:v00008086d000037D0sv*sd*bc*sc*i*"
+},
+{
+"name" :  "i40e.ko",
+"alias" :  "pci:v00008086d000037CFsv*sd*bc*sc*i*"
+},
+{
+"name" :  "i40e.ko",
+"alias" :  "pci:v00008086d000037CEsv*sd*bc*sc*i*"
+},
+{
+"name" :  "i40e.ko",
+"alias" :  "pci:v00008086d00001588sv*sd*bc*sc*i*"
+},
+{
+"name" :  "i40e.ko",
+"alias" :  "pci:v00008086d00001587sv*sd*bc*sc*i*"
+},
+{
+"name" :  "i40e.ko",
+"alias" :  "pci:v00008086d000015FFsv*sd*bc*sc*i*"
+},
+{
+"name" :  "i40e.ko",
+"alias" :  "pci:v00008086d00001589sv*sd*bc*sc*i*"
+},
+{
+"name" :  "i40e.ko",
+"alias" :  "pci:v00008086d00001586sv*sd*bc*sc*i*"
+},
+{
+"name" :  "i40e.ko",
+"alias" :  "pci:v00008086d00001585sv*sd*bc*sc*i*"
+},
+{
+"name" :  "i40e.ko",
+"alias" :  "pci:v00008086d00001584sv*sd*bc*sc*i*"
+},
+{
+"name" :  "i40e.ko",
+"alias" :  "pci:v00008086d00001583sv*sd*bc*sc*i*"
+},
+{
+"name" :  "i40e.ko",
+"alias" :  "pci:v00008086d00001581sv*sd*bc*sc*i*"
+},
+{
+"name" :  "i40e.ko",
+"alias" :  "pci:v00008086d00001580sv*sd*bc*sc*i*"
+},
+{
+"name" :  "i40e.ko",
+"alias" :  "pci:v00008086d00001574sv*sd*bc*sc*i*"
+},
+{
+"name" :  "i40e.ko",
+"alias" :  "pci:v00008086d00001572sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d000010D6sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d000010A9sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d000010A7sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d000010E8sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d00001526sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d0000150Dsv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d000010E7sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d000010E6sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d00001518sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d0000150Asv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d000010C9sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d00000440sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d0000043Csv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d0000043Asv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d00000438sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d00001516sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d00001511sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d00001510sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d00001527sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d0000150Fsv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d0000150Esv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d00001524sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d00001523sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d00001522sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d00001521sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d00001539sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d0000157Csv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d0000157Bsv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d00001538sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d00001537sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d00001536sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d00001533sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d00001F45sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d00001F41sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igb.ko",
+"alias" :  "pci:v00008086d00001F40sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igbvf.ko",
+"alias" :  "pci:v00008086d00001520sv*sd*bc*sc*i*"
+},
+{
+"name" :  "igbvf.ko",
+"alias" :  "pci:v00008086d000010CAsv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000015E5sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000015E4sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000015CEsv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000015CCsv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000015CAsv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000015C8sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000015C7sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000015C6sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000015C4sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000015C3sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000015C2sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000015AEsv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000015ADsv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000015ACsv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000015ABsv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000015B0sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000015AAsv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000015D1sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d00001563sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d00001560sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d00001558sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d0000154Asv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d00001557sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d0000154Dsv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d00001528sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000010F8sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d0000151Csv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d00001529sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d0000152Asv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000010F9sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d00001514sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d00001507sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000010FBsv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d00001517sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000010FCsv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000010F7sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d00001508sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000010DBsv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000010F4sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000010E1sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000010F1sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000010ECsv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000010DDsv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d0000150Bsv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000010C8sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000010C7sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000010C6sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbe.ko",
+"alias" :  "pci:v00008086d000010B6sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbevf.ko",
+"alias" :  "pci:v00008086d000015C5sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbevf.ko",
+"alias" :  "pci:v00008086d000015A8sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbevf.ko",
+"alias" :  "pci:v00008086d00001565sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbevf.ko",
+"alias" :  "pci:v00008086d00001515sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgbevf.ko",
+"alias" :  "pci:v00008086d000010EDsv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgb.ko",
+"alias" :  "pci:v00008086d00001B48sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgb.ko",
+"alias" :  "pci:v00008086d00001A48sv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgb.ko",
+"alias" :  "pci:v00008086d0000109Esv*sd*bc*sc*i*"
+},
+{
+"name" :  "ixgb.ko",
+"alias" :  "pci:v00008086d00001048sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mcs7830.ko",
+"alias" :  "usb:v0DF6p0021d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "mcs7830.ko",
+"alias" :  "usb:v9710p7730d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "mcs7830.ko",
+"alias" :  "usb:v9710p7830d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "mcs7830.ko",
+"alias" :  "usb:v9710p7832d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "megaraid.ko",
+"alias" :  "pci:v00008086d00001960sv*sd*bc*sc*i*"
+},
+{
+"name" :  "megaraid.ko",
+"alias" :  "pci:v0000101Ed00009060sv*sd*bc*sc*i*"
+},
+{
+"name" :  "megaraid.ko",
+"alias" :  "pci:v0000101Ed00009010sv*sd*bc*sc*i*"
+},
+{
+"name" :  "megaraid_mbox.ko",
+"alias" :  "pci:v00001000d00000409sv*sd*bc*sc*i*"
+},
+{
+"name" :  "megaraid_mbox.ko",
+"alias" :  "pci:v00001000d00001960sv*sd*bc*sc*i*"
+},
+{
+"name" :  "megaraid_mbox.ko",
+"alias" :  "pci:v0000101Ed00001960sv*sd*bc*sc*i*"
+},
+{
+"name" :  "megaraid_mbox.ko",
+"alias" :  "pci:v00001000d00000408sv*sd*bc*sc*i*"
+},
+{
+"name" :  "megaraid_mbox.ko",
+"alias" :  "pci:v00001028d00000013sv00001028sd00000170bc*sc*i*"
+},
+{
+"name" :  "megaraid_mbox.ko",
+"alias" :  "pci:v00001028d00000013sv00001028sd0000016Fbc*sc*i*"
+},
+{
+"name" :  "megaraid_mbox.ko",
+"alias" :  "pci:v00001028d00000013sv00001028sd0000016Ebc*sc*i*"
+},
+{
+"name" :  "megaraid_mbox.ko",
+"alias" :  "pci:v00001028d00000013sv00001028sd0000016Dbc*sc*i*"
+},
+{
+"name" :  "megaraid_mbox.ko",
+"alias" :  "pci:v00001028d00000013sv00001028sd0000016Cbc*sc*i*"
+},
+{
+"name" :  "megaraid_mbox.ko",
+"alias" :  "pci:v00001028d0000000Fsv00001028sd0000014Abc*sc*i*"
+},
+{
+"name" :  "megaraid_mbox.ko",
+"alias" :  "pci:v00001000d00000407sv*sd*bc*sc*i*"
+},
+{
+"name" :  "megaraid_mbox.ko",
+"alias" :  "pci:v00001000d00001960sv00001028sd00000518bc*sc*i*"
+},
+{
+"name" :  "megaraid_mbox.ko",
+"alias" :  "pci:v00001000d00001960sv00001028sd00000520bc*sc*i*"
+},
+{
+"name" :  "megaraid_mbox.ko",
+"alias" :  "pci:v00001028d0000000Esv00001028sd00000123bc*sc*i*"
+},
+{
+"name" :  "megaraid_sas.ko",
+"alias" :  "pci:v00001000d0000005Dsv*sd*bc*sc*i*"
+},
+{
+"name" :  "megaraid_sas.ko",
+"alias" :  "pci:v00001000d0000005Bsv*sd*bc*sc*i*"
+},
+{
+"name" :  "megaraid_sas.ko",
+"alias" :  "pci:v00001028d00000015sv*sd*bc*sc*i*"
+},
+{
+"name" :  "megaraid_sas.ko",
+"alias" :  "pci:v00001000d00000413sv*sd*bc*sc*i*"
+},
+{
+"name" :  "megaraid_sas.ko",
+"alias" :  "pci:v00001000d00000071sv*sd*bc*sc*i*"
+},
+{
+"name" :  "megaraid_sas.ko",
+"alias" :  "pci:v00001000d00000073sv*sd*bc*sc*i*"
+},
+{
+"name" :  "megaraid_sas.ko",
+"alias" :  "pci:v00001000d00000079sv*sd*bc*sc*i*"
+},
+{
+"name" :  "megaraid_sas.ko",
+"alias" :  "pci:v00001000d00000078sv*sd*bc*sc*i*"
+},
+{
+"name" :  "megaraid_sas.ko",
+"alias" :  "pci:v00001000d0000007Csv*sd*bc*sc*i*"
+},
+{
+"name" :  "megaraid_sas.ko",
+"alias" :  "pci:v00001000d00000060sv*sd*bc*sc*i*"
+},
+{
+"name" :  "megaraid_sas.ko",
+"alias" :  "pci:v00001000d00000411sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mlx4_core.ko",
+"alias" :  "pci:v000015B3d00001010sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mlx4_core.ko",
+"alias" :  "pci:v000015B3d0000100Fsv*sd*bc*sc*i*"
+},
+{
+"name" :  "mlx4_core.ko",
+"alias" :  "pci:v000015B3d0000100Esv*sd*bc*sc*i*"
+},
+{
+"name" :  "mlx4_core.ko",
+"alias" :  "pci:v000015B3d0000100Dsv*sd*bc*sc*i*"
+},
+{
+"name" :  "mlx4_core.ko",
+"alias" :  "pci:v000015B3d0000100Csv*sd*bc*sc*i*"
+},
+{
+"name" :  "mlx4_core.ko",
+"alias" :  "pci:v000015B3d0000100Bsv*sd*bc*sc*i*"
+},
+{
+"name" :  "mlx4_core.ko",
+"alias" :  "pci:v000015B3d0000100Asv*sd*bc*sc*i*"
+},
+{
+"name" :  "mlx4_core.ko",
+"alias" :  "pci:v000015B3d00001009sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mlx4_core.ko",
+"alias" :  "pci:v000015B3d00001008sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mlx4_core.ko",
+"alias" :  "pci:v000015B3d00001007sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mlx4_core.ko",
+"alias" :  "pci:v000015B3d00001006sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mlx4_core.ko",
+"alias" :  "pci:v000015B3d00001005sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mlx4_core.ko",
+"alias" :  "pci:v000015B3d00001004sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mlx4_core.ko",
+"alias" :  "pci:v000015B3d00001003sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mlx4_core.ko",
+"alias" :  "pci:v000015B3d00001002sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mlx4_core.ko",
+"alias" :  "pci:v000015B3d0000676Esv*sd*bc*sc*i*"
+},
+{
+"name" :  "mlx4_core.ko",
+"alias" :  "pci:v000015B3d00006746sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mlx4_core.ko",
+"alias" :  "pci:v000015B3d00006764sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mlx4_core.ko",
+"alias" :  "pci:v000015B3d0000675Asv*sd*bc*sc*i*"
+},
+{
+"name" :  "mlx4_core.ko",
+"alias" :  "pci:v000015B3d00006372sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mlx4_core.ko",
+"alias" :  "pci:v000015B3d00006750sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mlx4_core.ko",
+"alias" :  "pci:v000015B3d00006368sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mlx4_core.ko",
+"alias" :  "pci:v000015B3d0000673Csv*sd*bc*sc*i*"
+},
+{
+"name" :  "mlx4_core.ko",
+"alias" :  "pci:v000015B3d00006732sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mlx4_core.ko",
+"alias" :  "pci:v000015B3d00006354sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mlx4_core.ko",
+"alias" :  "pci:v000015B3d0000634Asv*sd*bc*sc*i*"
+},
+{
+"name" :  "mlx4_core.ko",
+"alias" :  "pci:v000015B3d00006340sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mpt2sas.ko",
+"alias" :  "pci:v00001000d0000007Esv*sd*bc*sc*i*"
+},
+{
+"name" :  "mpt2sas.ko",
+"alias" :  "pci:v00001000d0000006Esv*sd*bc*sc*i*"
+},
+{
+"name" :  "mpt2sas.ko",
+"alias" :  "pci:v00001000d00000087sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mpt2sas.ko",
+"alias" :  "pci:v00001000d00000086sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mpt2sas.ko",
+"alias" :  "pci:v00001000d00000085sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mpt2sas.ko",
+"alias" :  "pci:v00001000d00000084sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mpt2sas.ko",
+"alias" :  "pci:v00001000d00000083sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mpt2sas.ko",
+"alias" :  "pci:v00001000d00000082sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mpt2sas.ko",
+"alias" :  "pci:v00001000d00000081sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mpt2sas.ko",
+"alias" :  "pci:v00001000d00000080sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mpt2sas.ko",
+"alias" :  "pci:v00001000d00000065sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mpt2sas.ko",
+"alias" :  "pci:v00001000d00000064sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mpt2sas.ko",
+"alias" :  "pci:v00001000d00000077sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mpt2sas.ko",
+"alias" :  "pci:v00001000d00000076sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mpt2sas.ko",
+"alias" :  "pci:v00001000d00000074sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mpt2sas.ko",
+"alias" :  "pci:v00001000d00000072sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mpt2sas.ko",
+"alias" :  "pci:v00001000d00000070sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mpt3sas.ko",
+"alias" :  "pci:v00001000d00000095sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mpt3sas.ko",
+"alias" :  "pci:v00001000d00000094sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mpt3sas.ko",
+"alias" :  "pci:v00001000d00000091sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mpt3sas.ko",
+"alias" :  "pci:v00001000d00000090sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mpt3sas.ko",
+"alias" :  "pci:v00001000d00000097sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mpt3sas.ko",
+"alias" :  "pci:v00001000d00000096sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mptsas.ko",
+"alias" :  "pci:v00001000d00000059sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mptsas.ko",
+"alias" :  "pci:v00001000d00000062sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mptsas.ko",
+"alias" :  "pci:v00001000d00000058sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mptsas.ko",
+"alias" :  "pci:v00001000d00000056sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mptsas.ko",
+"alias" :  "pci:v00001000d00000054sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mptsas.ko",
+"alias" :  "pci:v00001000d00000050sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mptspi.ko",
+"alias" :  "pci:v00001000d00000040sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mptspi.ko",
+"alias" :  "pci:v0000117Cd00000030sv*sd*bc*sc*i*"
+},
+{
+"name" :  "mptspi.ko",
+"alias" :  "pci:v00001000d00000030sv*sd*bc*sc*i*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v067Cp1001d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v15E8p9110d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v15E8p9100d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v0707p0201d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v0707p0200d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v08D1p0003d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v0B39p0901d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v0B39p0109d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v0846p1020d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v045Ep007Ad*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v0411p0009d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v0411p0005d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v0411p0001d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v066Bp200Cd*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v066Bp400Bd*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v077Bp08B4d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v066Bp2206d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v066Bp2204d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v066Bp2203d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v066Bp2202d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v056Ep200Cd*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v056EpABC1d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v056Ep400Bd*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v056Ep4005d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v056Ep4002d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v0951p000Ad*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v04BBp093Ad*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v04BBp0913d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v04BBp0904d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v03F0p811Cd*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v0E66p400Cd*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v1044p8002d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v05CCp3000d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v1342p0304d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v056Ep4010d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v0DB7p0002d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v2001pABC1d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v2001p4003d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v2001p200Cd*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v2001p400Bd*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v2001p4102d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v2001p4002d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v2001p4001d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v07AAp000Dd*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v07AAp0004d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v08DDp8511d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v08DDp0988d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v049Fp8511d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v08DDp0987d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v08DDp0986d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v050Dp0122d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v050Dp0121d*dc00dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v07C9pB100d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v3334p1701d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v07A6p07C2d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v07A6p0986d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v07A6p8515d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v07A6p8513d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v07A6p8511d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v083ApB004d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v083Ap5046d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v083Ap1046d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v07B8p200Cd*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v07B8pABC1d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v07B8p400Cd*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v07B8p400Bd*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v07B8p4002d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v07B8p4102d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v07B8p4007d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v07B8p4004d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v07B8p4104d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v07B8p110Cd*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v0557p2007d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "pegasus.ko",
+"alias" :  "usb:v0506p4601d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "plusb.ko",
+"alias" :  "usb:v3923p7825d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "plusb.ko",
+"alias" :  "usb:v050Dp258Ad*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "plusb.ko",
+"alias" :  "usb:v067Bp25A1d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "plusb.ko",
+"alias" :  "usb:v067Bp0001d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "plusb.ko",
+"alias" :  "usb:v067Bp0000d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "qla3xxx.ko",
+"alias" :  "pci:v00001077d00003032sv*sd*bc*sc*i*"
+},
+{
+"name" :  "qla3xxx.ko",
+"alias" :  "pci:v00001077d00003022sv*sd*bc*sc*i*"
+},
+{
+"name" :  "qlcnic.ko",
+"alias" :  "pci:v00001077d00008430sv*sd*bc02sc00i00*"
+},
+{
+"name" :  "qlcnic.ko",
+"alias" :  "pci:v00001077d00008030sv*sd*bc02sc00i00*"
+},
+{
+"name" :  "qlcnic.ko",
+"alias" :  "pci:v00001077d00008020sv*sd*bc02sc00i00*"
+},
+{
+"name" :  "qlge.ko",
+"alias" :  "pci:v00001077d00008000sv*sd*bc*sc*i*"
+},
+{
+"name" :  "qlge.ko",
+"alias" :  "pci:v00001077d00008012sv*sd*bc*sc*i*"
+},
+{
+"name" :  "r8101.ko",
+"alias" :  "pci:v000010ECd00008136sv*sd*bc*sc*i*"
+},
+{
+"name" :  "r8125.ko",
+"alias" :  "pci:v000010ECd00003000sv*sd*bc*sc*i*"
+},
+{
+"name" :  "r8125.ko",
+"alias" :  "pci:v000010ECd00008125sv*sd*bc*sc*i*"
+},
+{
+"name" :  "r8152.ko",
+"alias" :  "usb:v0BDAp8152d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "r8168.ko",
+"alias" :  "pci:v00001186d00004300sv00001186sd00004B10bc*sc*i*"
+},
+{
+"name" :  "r8168.ko",
+"alias" :  "pci:v000010ECd00002600sv*sd*bc*sc*i*"
+},
+{
+"name" :  "r8168.ko",
+"alias" :  "pci:v000010ECd00002502sv*sd*bc*sc*i*"
+},
+{
+"name" :  "r8168.ko",
+"alias" :  "pci:v000010ECd00008161sv*sd*bc*sc*i*"
+},
+{
+"name" :  "r8168.ko",
+"alias" :  "pci:v000010ECd00008168sv*sd*bc*sc*i*"
+},
+{
+"name" :  "r8169.ko",
+"alias" :  "pci:v00000001d00008168sv*sd00002410bc*sc*i*"
+},
+{
+"name" :  "r8169.ko",
+"alias" :  "pci:v00001737d00001032sv*sd00000024bc*sc*i*"
+},
+{
+"name" :  "r8169.ko",
+"alias" :  "pci:v000016ECd00000116sv*sd*bc*sc*i*"
+},
+{
+"name" :  "r8169.ko",
+"alias" :  "pci:v00001259d0000C107sv*sd*bc*sc*i*"
+},
+{
+"name" :  "r8169.ko",
+"alias" :  "pci:v00001186d00004302sv*sd*bc*sc*i*"
+},
+{
+"name" :  "r8169.ko",
+"alias" :  "pci:v00001186d00004300sv*sd*bc*sc*i*"
+},
+{
+"name" :  "r8169.ko",
+"alias" :  "pci:v00001186d00004300sv00001186sd00004B10bc*sc*i*"
+},
+{
+"name" :  "r8169.ko",
+"alias" :  "pci:v000010ECd00008169sv*sd*bc*sc*i*"
+},
+{
+"name" :  "r8169.ko",
+"alias" :  "pci:v000010ECd00008168sv*sd*bc*sc*i*"
+},
+{
+"name" :  "r8169.ko",
+"alias" :  "pci:v000010ECd00008167sv*sd*bc*sc*i*"
+},
+{
+"name" :  "r8169.ko",
+"alias" :  "pci:v000010ECd00008136sv*sd*bc*sc*i*"
+},
+{
+"name" :  "r8169.ko",
+"alias" :  "pci:v000010ECd00008129sv*sd*bc*sc*i*"
+},
+{
+"name" :  "rtl8150.ko",
+"alias" :  "usb:v0586p401Ad*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "rtl8150.ko",
+"alias" :  "usb:v1557p8150d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "rtl8150.ko",
+"alias" :  "usb:v07B8p401Ad*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "rtl8150.ko",
+"alias" :  "usb:v3980p0003d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "rtl8150.ko",
+"alias" :  "usb:v0411p0012d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "rtl8150.ko",
+"alias" :  "usb:v0BDAp8150d*dc*dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "skge.ko",
+"alias" :  "pci:v00001737d00001032sv*sd00000015bc*sc*i*"
+},
+{
+"name" :  "skge.ko",
+"alias" :  "pci:v00001737d00001064sv*sd*bc*sc*i*"
+},
+{
+"name" :  "skge.ko",
+"alias" :  "pci:v00001371d0000434Esv*sd*bc*sc*i*"
+},
+{
+"name" :  "skge.ko",
+"alias" :  "pci:v000011ABd00005005sv*sd*bc*sc*i*"
+},
+{
+"name" :  "skge.ko",
+"alias" :  "pci:v000011ABd00004320sv*sd*bc*sc*i*"
+},
+{
+"name" :  "skge.ko",
+"alias" :  "pci:v00001186d00004302sv*sd*bc*sc*i*"
+},
+{
+"name" :  "skge.ko",
+"alias" :  "pci:v00001186d00004C00sv*sd*bc*sc*i*"
+},
+{
+"name" :  "skge.ko",
+"alias" :  "pci:v00001186d00004B01sv*sd*bc*sc*i*"
+},
+{
+"name" :  "skge.ko",
+"alias" :  "pci:v00001148d00004320sv*sd*bc*sc*i*"
+},
+{
+"name" :  "skge.ko",
+"alias" :  "pci:v000010B7d000080EBsv*sd*bc*sc*i*"
+},
+{
+"name" :  "skge.ko",
+"alias" :  "pci:v000010B7d00001700sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004382sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004381sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004380sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004370sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd0000436Dsv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd0000436Csv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd0000436Bsv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd0000436Asv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004369sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004368sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004367sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004366sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004365sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004364sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004363sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004362sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004361sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004360sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd0000435Asv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004357sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004356sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004355sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004354sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004353sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004352sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004351sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004350sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004347sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004346sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004345sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004344sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004343sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004342sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004341sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v000011ABd00004340sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v00001186d00004B03sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v00001186d00004B02sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v00001186d00004001sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v00001186d00004B00sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v00001148d00009E01sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v00001148d00009E00sv*sd*bc*sc*i*"
+},
+{
+"name" :  "sky2.ko",
+"alias" :  "pci:v00001148d00009000sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000010CFd000011A2sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v0000106Bd00001645sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v0000173Bd000003EAsv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v0000173Bd000003EBsv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v0000173Bd000003E9sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v0000173Bd000003E8sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v00001148d00004500sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v00001148d00004400sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d000016F3sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001643sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001687sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001686sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001682sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d0000165Fsv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001657sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d000016B6sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d000016B2sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d000016B4sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d000016B0sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d000016B5sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d000016B1sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001656sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001665sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001655sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001691sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001694sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001690sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001692sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001692sv00001025sd00000612bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001692sv00001025sd00000601bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d000016A0sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001699sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001689sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001688sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001680sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001681sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d0000165Bsv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001684sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001698sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001713sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001712sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d000016DDsv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d0000166Bsv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d0000166Asv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001679sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001678sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001669sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001668sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d0000167Fsv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001693sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001693sv000017AAsd00003056bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d0000169Bsv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d0000169Asv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001674sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001673sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d0000167Bsv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001672sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d0000167Asv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d000016FEsv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d000016FDsv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d000016F7sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001601sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001600sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d0000167Esv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d0000167Dsv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001677sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001676sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d0000165Asv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001659sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d0000166Esv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001649sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d0000170Esv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d0000170Dsv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d0000169Dsv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d0000169Csv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001696sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d000016C7sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d000016C6sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d000016A8sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d000016A7sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d000016A6sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d0000165Esv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d0000165Dsv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001654sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001653sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d0000164Dsv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001648sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001647sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001646sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001645sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tg3.ko",
+"alias" :  "pci:v000014E4d00001644sv*sd*bc*sc*i*"
+},
+{
+"name" :  "tn40xx.ko",
+"alias" :  "pci:v00001FC9d00004025sv00001432sd00008102bc*sc*i*"
+},
+{
+"name" :  "tn40xx.ko",
+"alias" :  "pci:v00001FC9d00004025sv00001FC9sd00003015bc*sc*i*"
+},
+{
+"name" :  "tn40xx.ko",
+"alias" :  "pci:v00001FC9d00004025sv00001186sd00002900bc*sc*i*"
+},
+{
+"name" :  "tn40xx.ko",
+"alias" :  "pci:v00001FC9d00004026sv00001FC9sd00003015bc*sc*i*"
+},
+{
+"name" :  "tn40xx.ko",
+"alias" :  "pci:v00001FC9d00004027sv00001432sd00008104bc*sc*i*"
+},
+{
+"name" :  "tn40xx.ko",
+"alias" :  "pci:v00001FC9d00004027sv00001FC9sd00003015bc*sc*i*"
+},
+{
+"name" :  "tn40xx.ko",
+"alias" :  "pci:v00001FC9d00004022sv00001432sd00008103bc*sc*i*"
+},
+{
+"name" :  "tn40xx.ko",
+"alias" :  "pci:v00001FC9d00004022sv00001043sd00008709bc*sc*i*"
+},
+{
+"name" :  "tn40xx.ko",
+"alias" :  "pci:v00001FC9d00004022sv00001186sd00004D00bc*sc*i*"
+},
+{
+"name" :  "tn40xx.ko",
+"alias" :  "pci:v00001FC9d00004022sv00001FC9sd00003015bc*sc*i*"
+},
+{
+"name" :  "tn40xx.ko",
+"alias" :  "pci:v00001FC9d00004020sv00001FC9sd00003015bc*sc*i*"
+},
+{
+"name" :  "tn40xx.ko",
+"alias" :  "pci:v00001FC9d00004010sv00001FC9sd00004010bc*sc*i*"
+},
+{
+"name" :  "usbcore.ko",
+"alias" :  "usb:v*p*d*dc*dsc*dp*ic09isc*ip*in*"
+},
+{
+"name" :  "usbcore.ko",
+"alias" :  "usb:v*p*d*dc09dsc*dp*ic*isc*ip*in*"
+},
+{
+"name" :  "usbcore.ko",
+"alias" :  "usb:v05E3p*d*dc*dsc*dp*ic09isc*ip*in*"
+},
+{
+"name" :  "via-rhine.ko",
+"alias" :  "pci:v00001106d00003053sv*sd*bc*sc*i*"
+},
+{
+"name" :  "via-rhine.ko",
+"alias" :  "pci:v00001106d00003106sv*sd*bc*sc*i*"
+},
+{
+"name" :  "via-rhine.ko",
+"alias" :  "pci:v00001106d00003065sv*sd*bc*sc*i*"
+},
+{
+"name" :  "via-rhine.ko",
+"alias" :  "pci:v00001106d00003043sv*sd*bc*sc*i*"
+},
+{
+"name" :  "via-velocity.ko",
+"alias" :  "pci:v00001106d00003119sv*sd*bc*sc*i*"
+},
+{
+"name" :  "virtio_pci.ko",
+"alias" :  "pci:v00001AF4d*sv*sd*bc*sc*i*"
+},
+{
+"name" :  "vmw_pvscsi.ko",
+"alias" :  "pci:v000015ADd000007C0sv*sd*bc*sc*i*"
+},
+{
+"name" :  "vmxnet3.ko",
+"alias" :  "pci:v000015ADd000007B0sv*sd*bc*sc*i*"
+},
+{
+"name" :  "vxge.ko",
+"alias" :  "pci:v000017D5d00005833sv*sd*bc*sc*i*"
+},
+{
+"name" :  "vxge.ko",
+"alias" :  "pci:v000017D5d00005733sv*sd*bc*sc*i*"
 }
 ]
 }
